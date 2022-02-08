@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     header__items.addEventListener('click', function () {
-        header__items.classList.remove('active');
+        header__burger.classList.toggle('active');
+        header_menu.classList.toggle('active');
         back.classList.toggle('lock');
     });
     //  /.Menu burger
